@@ -24,7 +24,7 @@
 			</div>
 			<div class="container">
 				<div>
-					<h1>New Automation<br> Tool for Your</h1>
+					<h1>New Automation Tool for Your</h1>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
 					elit. Faucibus tristique vulputate ultrices ut mauris <br>
@@ -44,7 +44,7 @@
 			<h2>What we do to help our client grow in digital era</h2>
 			<div class="container_two">
 			<div class="block_pct_one">
-				<img class="pct_one" src="img/pct1.PNG">
+				<img class="pct1" src="img/pct1.PNG">
 				<h3>Make Your business To Be<br>Better Famous In Internet</h3>
 				<p>Lorem ipsum dolor sit amet,<br>
 				consectetur adipiscing elit, sed<br>
@@ -53,7 +53,7 @@
 				<a href="#" class="learn_more">Learn more</a>
 			</div>
 			<div class="block_pct_two">
-				<img class="pct_two" src="img/pct2.PNG">
+				<img class="pct2" src="img/pct2.PNG">
 				<h3>Bring --- To Your<br> Comfrotable Home</h3>
 				<p>Lorem ipsum dolor sit amet,<br>
 				consectetur adipiscing elit, sed do<br> 
@@ -62,7 +62,7 @@
 				<a href="#" class="learn_more">Learn more</a>
 			</div>
 			<div class="block_pct_three">
-				<img class="pct_three" src="img/pct3.PNG">
+				<img class="pct3" src="img/pct3.PNG">
 				<h3>Build Your Digital Product<br> That Suitable For Your Need</h3>
 				<p>Lorem ipsum dolor sit amet,<br>
 				consectetur adipiscing elit, sed do<br> 
