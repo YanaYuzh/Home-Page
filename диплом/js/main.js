@@ -61,8 +61,8 @@ $(function(){
         $('.gal_right').click(function(){
             if (!$(this).hasClass('disabled')) galSlide('right');
         });
-        
-        $('.rail img').click(function(){
+		
+		$('.rail img').click(function(){
             let attr = $(this).attr('src').split('/');
             attr = attr[0] + '/' + attr[1].split('_')[1];
             $('.bigimage img').attr('src', attr);

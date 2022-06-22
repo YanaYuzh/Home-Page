@@ -231,21 +231,11 @@ function makeCalendar(fieldDate) {
     curyear = hlpdate.getFullYear();
     curmonth = hlpdate.getMonth();
     curday = hlpdate.getDate();
-    /*
-    if (fieldDate.match(/^\d{2}\-\d{2}\-\d{4}$/)) {
-        [curday, curmonth, curyear] = fieldDate.split('-');
-        curmonth--;
-        if ((curday < 1) || (curmonth < 0) || (curyear < 2020) || (curmonth > 11) || (curyear > 2023) || (curday > 31) || ((curmonth in [3, 5, 8, 10]) && (curday > 30)) || ((curmonth == 1) && ((curyear % 400 == 0) || ((curyear % 4 == 0) && (curyear % 100 != 0))) && (curday > 29)) || ((curmonth == 1) && (curday > 28))) {
-            curyear = now.getFullYear();
-            curmonth = now.getMonth();
-            curday = now.getDate();
-        }
-    }
-    */
+
     hlpdate = new Date(curyear, curmonth);
-    let prevdays = ((hlpdate.getDay() + 6) % 7); // пн - 0, вт - 1 ... сб - 5, вс - 6
+    let prevdays = ((hlpdate.getDay() + 6) % 7); 
     hlpdate = new Date(curyear, curmonth + 1, 0);
-    let lastday = hlpdate.getDate() + prevdays; // последний день месяца + дни до начала месяца
+    let lastday = hlpdate.getDate() + prevdays; 
     let weeks = Math.ceil(lastday / 7);
     let hlpstr = '<div class="dp_header"><span class="bigprev"><<</span><span class="prev"><</span><strong>' + russMonth[curmonth] + ' ' + curyear + '</strong><span class="next">></span><span class="bignext">>></span></div>';
     hlpstr += '<div class="dp_grid"><span class="headday">Пн</span><span class="headday">Вт</span><span class="headday">Ср</span><span class="headday">Чт</span><span class="headday">Пт</span><span class="headday holiday">Сб</span><span class="headday holiday">Вс</span>';

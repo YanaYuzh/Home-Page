@@ -272,6 +272,7 @@ main {
 }
 .slider_points {
 	position: absolute;
+	margin: 5px;
 	z-index: 1;
 	width: 417px;
 	height: 24px;
@@ -297,6 +298,10 @@ main {
 }
 .slider_points span.active:hover {
 	border-color: #2e86de;
+}
+.info {
+	text-align: center;
+	margin:20px;
 }
 
 /*catalog*/
@@ -344,6 +349,11 @@ main {
 .item:hover {
 	box-shadow: 1px 1px 15px rgba(0,0,0,0.3);
 }
+
+.item img {
+	width: 100%;
+}
+
 .buy,
 .item button {
 	background: #f78fb3;
@@ -365,6 +375,14 @@ main {
 article h1 {
 	color: #1dd1a1;
 }
+h3 {
+	text-align: center;
+	color:#2e86de;
+}
+.prod {
+	text-align: center;
+}
+
 
 /* catmenu */
 .opener {
@@ -510,6 +528,10 @@ div .price{
 }
 .rail img {
 	cursor: pointer;
+}
+
+.big{
+	text-decoration: underline;
 }
 
 /*popups*/
@@ -693,4 +715,13 @@ legend + input {
 	border-radius: 8px;
 	color: white;
 	cursor: pointer;
+}
+/*
+.placeholder:hover{
+	color: #2e86de;
+}*/
+
+/*contacts*/
+.contacts {
+	
 }
